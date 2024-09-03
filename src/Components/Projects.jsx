@@ -7,9 +7,9 @@ function Projects() {
       name: "Portfolio Website",
       techUsed: "Reactjs,Tailwind css",
       description: "A personal portfolio website showcasing my projects and skills.",
-      link:"https://sourav1007.github.io/QuizzApp/",
+      link:"https://portfolio-7gzfjhzn6-souravs-projects-0f0120b3.vercel.app",
       src:"/portfolio.png",
-      code:""
+      code:"https://github.com/sourav1007/PORTFOLIO"
       
     },
     {
