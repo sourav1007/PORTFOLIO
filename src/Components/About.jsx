@@ -47,26 +47,24 @@ function About() {
             <h1 style={{ color: "#8F67D7" }}>Languages and Technologies</h1>
           </div>
           <br />
-          <div className="flex  w-24 h-24 ">
-            <img className="hover:scale-150  duration-300" src="/html.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/css.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/js.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/react.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/node.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/mongo.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/c.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/c++.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/c#.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/vs.png" alt="" />
-            <img className="hover:scale-150  duration-300" src="/postman.png" alt="" />
-            <div className="hover:scale-150  duration-300">
-              <SiExpress className="size-20" />
-            </div>
-            <img className="hover:scale-150  duration-300" src="/sql.png" alt="" />
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/html.png" alt="HTML" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/css.png" alt="CSS" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/js.png" alt="JavaScript" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/react.png" alt="React" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/node.png" alt="Node.js" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/mongo.png" alt="MongoDB" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/c.png" alt="C" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/c++.png" alt="C++" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/c#.png" alt="c#" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/vs.png" alt="Visual Studio" />
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/postman.png" alt="Postman" />
+  <div className="w-16 h-16 hover:scale-150 duration-300 flex items-center justify-center">
+    <SiExpress size={32} />
+  </div>
+  <img className="w-16 h-16 hover:scale-150 duration-300" src="/sql.png" alt="SQL" />
+</div>
 
-
-
-          </div>
         </div>
         <div className="md:w-1/2 md:ml-48 md:mt-24   order-1 h-1/2">
           <img className="rounded-2xl " src="/srv.jpg" alt="" />
