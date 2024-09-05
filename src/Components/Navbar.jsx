@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
 
-        <div style={{color:"#9DA2E6"}} className=" font-sans navbar font-bold  ">
+        <div style={{color:"#9DA2E6"}} className=" font-sans navbar font-bold container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
             <div className=" pl-8 flex-1">
                 <Link to="/" className=" hover:scale-110 duration-300 text-2xl">SAURABH RAWAT</Link>
             </div>
