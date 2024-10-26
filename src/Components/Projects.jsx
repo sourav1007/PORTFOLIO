@@ -7,7 +7,7 @@ function Projects() {
       name: "Dell Clone",
       techUsed: "HTML,CSS,JavaScript",
       description: "A Dell Clone Website, fully Resposible for all device sizes",
-      link:"https://sourav1007.github.io/Dell_Clone/",
+      link:"https://sourav1007.github.io/Dell_Clone/
       src:"/dellclone.png",
       code:"https://github.com/sourav1007/Dell_Clone"
       
