@@ -27,7 +27,7 @@ function Projects() {
       name: "Portfolio Website",
       techUsed: "Reactjs,Tailwind css",
       description: "A personal portfolio website showcasing my projects and skills.",
-      link:"https://portfolio-theta-nine-59.vercel.app/Projects",
+      link:"https://portfolio-theta-nine-59.vercel.app/",
       src:"/portfolio.png",
       code:"https://github.com/sourav1007/PORTFOLIO"
       
