@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import Resume from "/Resume.pdf"
+import resume from "/resume.pdf"
 
 
 import { ReactTyped } from "react-typed";
@@ -24,7 +24,7 @@ function Home() {
               {/* <span >Developer</span> */}
               <ReactTyped style={{ color: "#516bfe" }}
                 className=" font-bold"
-                strings={[" Developer", " Programmer", " Coder", " Traveller", " Liver"]}
+                strings={[" Developer", " Programmer", " Coder", " Traveller",]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -67,7 +67,7 @@ function Home() {
               </div>
               <div className=" space-y-2">
                 <h1 className="font-bold text-center">Download my Resume</h1>
-                <a href={Resume} download="Resume"  ><button className="btn btn-outline w-full hover:bg-green-500 hover:scale-105 duration-300 "><IoMdDownload className="text-2xl cursor-pointer" /></button></a>
+                <a href={resume} download="resume"  ><button className="btn btn-outline w-full hover:bg-green-500 hover:scale-105 duration-300 "><IoMdDownload className="text-2xl cursor-pointer" /></button></a>
               </div>
             </div>
           </div>
